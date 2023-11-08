@@ -1,0 +1,401 @@
+body {
+    background-color: rgba(60, 225, 195, 0.545);
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgba(60, 225, 195, 1.000);
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid black 0.0625vw;
+  border-bottom: solid black 0.0625vw;
+}
+
+.mobile-header h1 {
+  padding: 4.3vw 0vw 0vw 3vw;
+  font-size: 4vw;
+}
+
+.mobile-header img {
+  padding: 2.5vw 5vw 1vw 0vw;
+  width: 14vw;
+  height: 11vw;
+}
+
+
+main {
+  padding-bottom: 4vw;
+  
+}
+
+.mobile-main1 {
+  background: url(../IMAGES/Modern-Soft.jpg);
+  background-size: cover;
+  height: 50vw;
+  width: 100%;
+}
+
+.mobile-main1 h2 {
+  font-size: 4.3vw;
+  padding: 12vw 15vw 0vw 9vw;
+  width: 100vw;
+  color: lightgreen;
+}
+
+.mobile-main2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 5vw 2vw 5vw;
+
+}
+
+.mobile-main2 h2 {
+  font-size: 3.8vw;
+  padding: 1vw 0vw;
+
+}
+
+.mobile-main2 .p11 {
+  padding: 1vw 0vw;
+}
+
+.mobile-main2 img {
+  padding: 1vw 0vw;
+  width: 42vw;
+  height: auto;
+}
+
+.mobile-main2 .p11 p, .mobile-main2 .p12 p  {
+  font-size: 3.2vw;
+}
+
+.mobile-main3 {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 5vw 2vw 5vw;
+
+}
+
+.mobile-main3 h2 {
+  font-size: 3.8vw;
+  padding: 1vw 0vw;
+
+}
+
+.mobile-main3 .p21 {
+  padding: 1vw 0vw;
+}
+
+.mobile-main3 img {
+  padding: 1vw 0vw;
+  width: 42vw;
+  height: auto;
+}
+
+.mobile-main3 .p21 p, .mobile-main3 .p22 p  {
+  font-size: 3.2vw;
+}
+
+.mobile-main4 {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 5vw 2vw 5vw;
+
+}
+
+.mobile-main4 h2 {
+  font-size: 3.8vw;
+  padding: 1vw 0vw;
+
+}
+
+.mobile-main4 .p31 {
+  padding: 1vw 0vw;
+}
+
+.mobile-main4 img {
+  padding: 1vw 0vw;
+  width: 42vw;
+  height: auto;
+}
+
+.mobile-main4 .p31 p, .mobile-main4 .p32 p  {
+  font-size: 3.2vw;
+}
+
+
+
+
+footer {
+  background-color: rgba(60, 225, 195, 1.000);
+  padding-bottom: 1vw;
+
+}
+
+.mobile-footer1 {
+  padding: 0vw 5vw 2vw 5vw;
+  border-top: 0.225vw black solid;
+}
+
+.mobile-footer1 li {
+  list-style: none;
+}
+
+.mobile-footer1 li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 1vw 0vw;
+  border-bottom: 0.0625vw solid black;
+  font-size: 3.2vw;
+}
+
+.space1 {
+  margin-left: 3.5vw;
+}
+
+.space2 {
+  display: inline block;
+}
+
+.mobile-footer2 {
+  padding: 0vw 5vw;
+  display: flex;
+  flex-direction: row;
+  gap: 18vw;
+}
+
+footer a:hover {
+  color: blue;
+}
+
+footer h1 {
+  padding: 1vw 5vw 0vw 30vw;
+  font-size: 4.2vw;
+}
+
+.mobile-footer3 {
+  margin: 1.5vw 5vw 1vw 5vw;
+  border-top: 0.0625vw black solid;
+}
+
+.mobile-footer3 p {
+  padding-top: 1.5vw;
+  margin-left: 4.5vw;
+  padding-bottom: 0vw;
+  font-size: 2.6vw; 
+}
+
+.mobile-footer3 p span {
+  color: crimson;
+}
+
+
+
+@media (min-width: 768px) {
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .mobile-header h1 {
+    font-size: 2.2vw;
+  }
+  
+  .mobile-header img {
+    width: 8vw;
+    height: 6vw;
+  }
+
+  .mobile-main1 h2 {
+    font-size: 4.3vw;
+  }
+
+  .mobile-main2 {
+    padding: 2vw 12vw 2vw 12vw;
+  
+  }
+  
+  .mobile-main2 h2 {
+    font-size: 2.9vw;
+  }
+  
+  .mobile-main2 .p11 p, .mobile-main2 .p12 p  {
+    font-size: 2.3vw;
+  }
+
+  .mobile-main3 {
+    padding: 2vw 12vw 2vw 12vw;
+  
+  }
+
+  .mobile-main3 h2 {
+    font-size: 2.9vw;
+  }
+  
+  .mobile-main3 .p21 p, .mobile-main3 .p22 p  {
+    font-size: 2.3vw;
+  }
+
+  .mobile-main4 {
+    padding: 2vw 12vw 2vw 12vw;
+  
+  }
+  
+  .mobile-main4 h2 {
+    font-size: 2.9vw;
+  }
+  
+  .mobile-main4 .p31 p, .mobile-main4 .p32 p  {
+    font-size: 2.3vw;
+  }
+
+  footer h1 {
+    padding: 1vw 5vw 0vw 34vw;
+    font-size: 3.2vw;
+  }
+
+  .mobile-footer1 {
+    padding: 0vw 12vw 1vw 12vw;
+  }
+
+  .mobile-footer1 li a {
+    font-size: 2.3vw;
+    padding: 0.5vw 0vw;
+  }
+  
+  .mobile-footer2 {
+    gap: 18vw;
+    padding: 0vw 12vw;
+  }
+
+  .mobile-footer2 a {
+    color: black;
+    
+  }
+
+  .mobile-footer3 {
+    margin: 1vw 12vw 0.5vw 12vw;
+    border-top: 0.0625vw black solid;
+  }
+
+  .mobile-footer3 p {
+    padding-top: 0.5vw;
+    font-size: 2.3vw;
+    margin-left: 2.4vw;
+    
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .mobile-header h1 {
+    padding: 3.3vw 0vw 0vw 2vw;
+    font-size: 2.2vw;
+  }
+  
+  .mobile-header img {
+    padding: 1.5vw 5vw 0.5vw 0vw;
+    width: 8vw;
+    height: 6vw;
+  
+  } 
+
+  .mobile-main1 h2 {
+    font-size: 4.3vw;
+  }
+
+  .mobile-main2 {
+    padding: 2vw 17vw 2vw 17vw;
+  
+  }
+  
+  .mobile-main2 h2 {
+    font-size: 1.9vw;
+  }
+  
+  .mobile-main2 .p11 p, .mobile-main2 .p12 p  {
+    font-size: 1.3vw;
+  }
+
+  .mobile-main3 {
+    padding: 2vw 17vw 2vw 17vw;
+  
+  }
+
+  .mobile-main3 h2 {
+    font-size: 1.9vw;
+  }
+  
+  .mobile-main3 .p21 p, .mobile-main3 .p22 p  {
+    font-size: 1.3vw;
+  }
+
+  .mobile-main4 {
+    padding: 2vw 17vw 2vw 17vw;
+  
+  }
+  
+  .mobile-main4 h2 {
+    font-size: 1.9vw;
+  }
+  
+  .mobile-main4 .p31 p, .mobile-main4 .p32 p  {
+    font-size: 1.3vw;
+  }
+
+  footer h1 {
+    padding: 1vw 5vw 0vw 39vw;
+    font-size: 2.2vw;
+  }
+
+  .mobile-footer1 {
+    padding: 0vw 17vw 1vw 17vw;
+  }
+
+  .mobile-footer1 li a {
+    font-size: 1.3vw;
+    padding: 0.5vw 0vw;
+    border-bottom: 0.0625vw solid black;
+  }
+  
+  .mobile-footer2 {
+    gap: 18vw;
+    padding: 0vw 17vw;
+  }
+
+  .mobile-footer2 a {
+    color: black;
+  }
+
+  .mobile-footer3 {
+    margin: 0.5vw 17vw 0.5vw 17vw;
+    border-top: 0.0625vw black solid;
+  }
+
+  .mobile-footer3 p {
+    padding-top: 1vw;
+    font-size: 1.3vw;
+    margin-left: 12.4vw;
+    
+  } 
+
+}
